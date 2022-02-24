@@ -23,3 +23,11 @@ h1 {
     color: #0f1216;
     fill: #0f1216;
 }
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 15px;
+}
