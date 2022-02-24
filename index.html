@@ -5,18 +5,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i&display=swap" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="utils.css">
         <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="feedbackSection.css">
         
         <title>Altruistic Land Page</title>
     </head>
 
     <body>
         <header>
-            <nav class="width-component">
+            <nav>
                 <div class="nav-left-container">
                     <img class="logo" src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/02/logo-general.svg" alt="Echooling - Education WordPress Theme">
                     <a href="#" class="nav-text">Category</a>
@@ -38,13 +43,20 @@
 
         <main>
             <!-- opening section -->
-            <div>
-                <h1>Your Next Online Archive</h1>
-                <h4>Online learning can access anywhere easily</h4>
-                <button>Get Started</button>
-                <button>play</button>
+            <div class="opening-section color-white">
+                <div class="sub-opening-section-left d-flex ">
+                    <div class="right-section">
+                        <h1>Your Next <br> Online Archive</h1>
+                        <h4>Online learning can access anywhere easily</h4>
+                        <button class="btn">Get Started</button>
+                        <button>play</button>
+                    </div>
+                    <div class="sub-opening-section-rigth">
+                        <img class="girl-pic" src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/02-1.png" alt="happy girl">
+                    </div>
+                </div>
             </div>
-            <img src="" alt="happy girl">
+            
 
             <!-- lesson section -->
             <div>
@@ -72,7 +84,7 @@
                 </div>
             </div>
             <div>
-                <img src="" alt="happy boy">
+                <img src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/ab3.png" alt="happy boy">
                 <div>
                     <h5>About us</h5>
                     <h2>The quickest and Effected way for Learning</h2>
@@ -81,7 +93,7 @@
                     <div>Access more then 100K online courses</div>
                     <img src="" alt="icon">
                     <div>Upskill your organization.</div>
-                    <button>Get Started</button>
+                    <button class="btn">Get Started</button>
                 </div>
             </div>
 
@@ -92,7 +104,7 @@
             </div>
             <div>
                 <div>
-                    <img src="" alt="schoolife img">
+                    <img src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/course-1.jpg" alt="schoolife img">
                     <div>$44.00</div>
                     <div>Machine Learning A-Z:</div>
                     <div>Hands-On Python and java</div>
@@ -101,7 +113,7 @@
                     <span>2 Lessons</span>
                 </div>
                 <div>
-                    <img src="" alt="schoolife img">
+                    <img src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/image-2.png" alt="schoolife img">
                     <div>$66.00</div>
                     <div>Psychology of Financial Success: Master Finance</div>
                     <br>
@@ -109,7 +121,7 @@
                     <span>0 Lessons</span>
                 </div>
                 <div>
-                    <img src="" alt="schoolife img">
+                    <img src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/image-1.png" alt="schoolife img">
                     <div>$55.00</div>
                     <div>Python for Data Science & Machine Learning</div>
                     <br>
@@ -117,7 +129,7 @@
                     <span>0 Lessons</span>
                 </div>
                 <div>
-                    <img src="" alt="schoolife img">
+                    <img src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/image-1.jpg" alt="schoolife img">
                     <div>$45.00</div>
                     <div>Strategy law and Organization foundation</div>
                     <br>
@@ -125,22 +137,21 @@
                     <span>4 Lessons</span>
                 </div>
                 <div>
-                    <img src="" alt="schoolife img">
-                    <div>$45.00</div>
-                    <div>Learn Essentials of User Interface Design in Figma</div>
-                    <br>
-                    <span>5h 35m</span>
-                    <span>0 Lessons</span>
-                </div>
-                <div>
-                    <img src="" alt="schoolife img">
+                    <img src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/image.jpg" alt="schoolife img">
                     <div>$66.00</div>
                     <div>Become a UI/UX Designer Everything You need To Know</div>
                     <br>
                     <span>5h 35m</span>
                     <span>0 Lessons</span>
                 </div>
-
+                <div>
+                    <img src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/image-2.jpg" alt="schoolife img">
+                    <div>$45.00</div>
+                    <div>Learn Essentials of User Interface Design in Figma</div>
+                    <br>
+                    <span>5h 35m</span>
+                    <span>0 Lessons</span>
+                </div>
                 <button>View All Courses</button>
             </div>
 
@@ -158,65 +169,125 @@
             </div>
 
             <!-- feedback section -->
-            <div>
-                <div>
-                    <h5>Student Satisfaction</h5>
-                    <h3>Student Community Feedback</h3>
+            <div class="container-feedback">
+              <div class="container-feedback-title">
+                <h4>Student Satisfaction</h4>
+                <h2>Student Community</h2>
+                <h2>Feedback</h2>
+              </div>
+              <div class="container-card-student">
+                <div class="container-feedback-arrow left center">
+                  <i class="fas fa-long-arrow-alt-left"></i>
                 </div>
-                <div>
-                    <p>Nulla porttitor accumsan tincidunt. vamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in.</p>
+                <div class="container-feedback-arrow right center">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+                <div class="card-student">
+                  <p>
+                    Nulla porttitor accumsan tincidunt. vamus magna justo, lacinia
+                    eget consectetur sed, convallis at tellus. Curabitur non nulla sit
+                    amet nisl tempus convallis quis ac lectus. Quisque velit nisi,
+                    pretium ut lacinia in.
+                  </p>
+                  <div class="container-image">
+                    <img
+                      src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/testimonial.png"
+                      alt=""
+                      class="margin-right"
+                    />
                     <div>
-                        <img src="" alt="photo-profile">
-                        <div>
-                            <div>Fera Look</div>
-                            <div>Student</div>
-                        </div>
+                      <div class="margin-bottom-05 text-bold">Fera Look</div>
+                      <div>Student</div>
                     </div>
+                  </div>
                 </div>
-                <div>
-                    <p>Nulla porttitor accumsan tincidunt. vamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in.</p>
+                <div class="card-student">
+                  <p>
+                    Nulla porttitor accumsan tincidunt. vamus magna justo, lacinia
+                    eget consectetur sed, convallis at tellus. Curabitur non nulla sit
+                    amet nisl tempus convallis quis ac lectus. Quisque velit nisi,
+                    pretium ut lacinia in.
+                  </p>
+                  <div class="container-image">
+                    <img
+                      src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/testimonial.png"
+                      alt=""
+                      class="margin-right"
+                    />
                     <div>
-                        <img src="" alt="photo-profile">
-                        <div>
-                            <div>William Sara</div>
-                            <div>Student</div>
-                        </div>
+                      <div class="margin-bottom-05 text-bold">Fera Look</div>
+                      <div>Student</div>
                     </div>
+                  </div>
                 </div>
-                <div>
-                    <p>Nulla porttitor accumsan tincidunt. vamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in.</p>
+                <div class="card-student">
+                  <p>
+                    Nulla porttitor accumsan tincidunt. vamus magna justo, lacinia
+                    eget consectetur sed, convallis at tellus. Curabitur non nulla sit
+                    amet nisl tempus convallis quis ac lectus. Quisque velit nisi,
+                    pretium ut lacinia in.
+                  </p>
+                  <div class="container-image">
+                    <img
+                      src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/testimonial.png"
+                      alt=""
+                      class="margin-right"
+                    />
                     <div>
-                        <img src="" alt="photo-profile">
-                        <div>
-                            <div>Tom Lara</div>
-                            <div>Student</div>
-                        </div>
+                      <div class="margin-bottom-05 text-bold">Fera Look</div>
+                      <div>Student</div>
                     </div>
+                  </div>
                 </div>
+              </div>
+              <div class="container-number">
+                <div class="d-flex margin-0 card-number">
+                  <img
+                    src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/fun-1.svg"
+                    alt="img"
+                    class="margin-right"
+                  />
+                  <div>
+                    <p class="text-bold text-number">28K</p>
+                    <p class="text-grey margin-0">FOREIGN FOLLOWERS</p>
+                  </div>
+                </div>
+                <div class="d-flex margin-0 card-number border-left-right center">
+                  <img
+                    src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/fun-2.svg"
+                    alt="img"
+                    class="margin-right"
+                  />
+                  <div>
+                    <p class="text-bold text-number">10K</p>
+                    <p class="text-grey margin-0">CLASEES COMPLETE</p>
+                  </div>
+                </div>
+                <div class="d-flex margin-0 card-number border-left-right center">
+                  <img
+                    src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/fun-1.svg"
+                    alt="img"
+                    class="margin-right"
+                  />
+                  <div>
+                    <p class="text-bold text-number">28K</p>
+                    <p class="text-grey margin-0">FOREIGN FOLLOWERS</p>
+                  </div>
+                </div>
+                <div class="d-flex margin-0 card-number center">
+                  <img
+                    src="https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/fun-2.svg"
+                    alt="img"
+                    class="margin-right"
+                  />
+                  <div>
+                    <p class="text-bold text-number">10K</p>
+                    <p class="text-grey margin-0">CLASEES COMPLETE</p>
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <div>
-                <div>
-                    <img src="" alt="small earth logo">
-                    <h3>28k</h3>
-                    <div>FOREIGN FOLLOWERS</div>
-                </div>
-                <div>
-                    <img src="" alt="small book logo">
-                    <h3>10k</h3>
-                    <div>CLASSES COMPLETE</div>
-                </div>
-                <div>
-                    <img src="" alt="small people logo">
-                    <h3>208k</h3>
-                    <div>STUDENT ENROLLED</div>
-                </div>
-                <div>
-                    <img src="" alt="small medal logo">
-                    <h3>11k</h3>
-                    <div>CERTIFIED TEACHERS</div>
-                </div>
-            </div>
+          </main>
         </main>
 
         <!-- footer section -->

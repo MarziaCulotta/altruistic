@@ -1,0 +1,22 @@
+.opening-section {
+    background: url(https://reactheme.com/products/wordpress/echooling/wp-content/uploads/2022/01/01-1.jpg);
+}
+
+.sub-opening-section-left {
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.btn {
+    font-weight: 600;
+    fill: #0f1216;
+    color: #0f1216;
+    background-color: #fff;
+    padding: 18px 35px;
+}
