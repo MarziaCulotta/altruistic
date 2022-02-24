@@ -5,11 +5,17 @@
 .color-grey {
   color: #b7b7b9;
 }
+.color-red {
+  color: #d2093c;
+}
 .margin-0 {
   margin: 0;
 }
 .margin-right {
   margin-right: 1rem;
+}
+.margin-left {
+  margin-left: 1rem;
 }
 
 .margin-bottom {
@@ -42,4 +48,10 @@
 }
 .text-bold {
   font-weight: bold;
+}
+.w-100 {
+  width: 100%;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
